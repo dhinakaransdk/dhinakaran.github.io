@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GROOMSY Landing Page</title>
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com" />
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    // Extend or customize Tailwind's default theme here
+                }
+            }
+        }
+    </script>
+
+    <!-- Animate.css CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    
+    <!-- AOS CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <style>
+        /* Custom Styles */
+        .section-bg {
+            background-color: #f9fafb;
+        }
+
+        .section-bg {
+            background-color: #f9fafb;
+        }
+        .feature-card {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+    </style>
+</head>
+<body class="font-sans text-gray-900">
+
+    <!-- Hero Section -->
+    <section class="bg-cover bg-center h-screen" style="background-image: url('your-image.jpg');">
+        <div class="bg-black bg-opacity-50 h-full flex items-center justify-center text-center text-white" data-aos="fade-up">
+            <div>
+                <h1 class="text-4xl md:text-6xl font-bold mb-4">GROOMSY: The Exclusive Online Platform</h1>
+                <p class="text-lg md:text-2xl mb-8">Market & Promote Your Grooming Services Effortlessly!</p>
+                <a href="#" class="inline-block bg-blue-500 text-white py-3 px-8 rounded-full shadow-lg hover:bg-blue-600 transition-transform transform hover:scale-105">Sign Up Now!</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Value Proposition Section -->
+<section class="bg-gradient-to-r from-indigo-100 via-purple-100 to-pink-100 py-16">
+    <div class="container mx-auto px-6 md:flex md:items-center md:justify-between">
+        <div class="md:w-1/2 md:pr-12" data-aos="fade-right">
+            <h2 class="text-4xl font-bold text-gray-900 mb-8 leading-tight">Why Choose GROOMSY?</h2>
+            <ul class="space-y-10">
+                <li class="flex items-start space-x-6 bg-white p-6 rounded-lg shadow-lg transition-transform transform hover:scale-105" data-aos="fade-up" data-aos-delay="100">
+                    <i class="fas fa-users fa-3x text-indigo-600 flex-shrink-0"></i>
+                    <div>
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">Reach Thousands of Online Customers</h3>
+                        <p class="text-gray-700">Tap into our growing online audience and expand your customer base effortlessly.</p>
+                    </div>
+                </li>
+                <li class="flex items-start space-x-6 bg-white p-6 rounded-lg shadow-lg transition-transform transform hover:scale-105" data-aos="fade-up" data-aos-delay="200">
+                    <i class="fas fa-tags fa-3x text-green-600 flex-shrink-0"></i>
+                    <div>
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">Showcase Your Offers and Discounts</h3>
+                        <p class="text-gray-700">Highlight your special deals in real-time to attract and engage customers.</p>
+                    </div>
+                </li>
+                <li class="flex items-start space-x-6 bg-white p-6 rounded-lg shadow-lg transition-transform transform hover:scale-105" data-aos="fade-up" data-aos-delay="300">
+                    <i class="fas fa-bullhorn fa-3x text-red-600 flex-shrink-0"></i>
+                    <div>
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">Promote Your Business and Services</h3>
+                        <p class="text-gray-700">Utilize personalized marketing tools to enhance your business visibility.</p>
+                    </div>
+                </li>
+                <li class="flex items-start space-x-6 bg-white p-6 rounded-lg shadow-lg transition-transform transform hover:scale-105" data-aos="fade-up" data-aos-delay="400">
+                    <i class="fas fa-file-alt fa-3x text-purple-600 flex-shrink-0"></i>
+                    <div>
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">Share Your E-Brochures and Unique Services</h3>
+                        <p class="text-gray-700">Distribute digital brochures easily and efficiently to your audience.</p>
+                    </div>
+                </li>
+                <li class="flex items-start space-x-6 bg-white p-6 rounded-lg shadow-lg transition-transform transform hover:scale-105" data-aos="fade-up" data-aos-delay="500">
+                    <i class="fas fa-dollar-sign fa-3x text-yellow-600 flex-shrink-0"></i>
+                    <div>
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">Boost Your Revenue</h3>
+                        <p class="text-gray-700">Enhance your earnings with streamlined online bookings and promotions.</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="md:w-1/2 mt-8 md:mt-0" data-aos="fade-left">
+            <img src="https://via.placeholder.com/500x300?text=Value+Proposition" alt="Value Proposition" class="w-full rounded-xl shadow-2xl transform hover:scale-105 transition-transform duration-300">
+        </div>
+    </div>
+</section>
+
+
+
+    <!-- How It Works Section -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-3xl font-bold text-gray-800 mb-8">How GROOMSY Works</h2>
+            <div class="flex flex-col md:flex-row justify-center space-y-8 md:space-y-0 md:space-x-8">
+                <div class="bg-indigo-600 text-white p-6 rounded-lg shadow-md transform hover:scale-105 transition-transform duration-300" data-aos="fade-up">
+                    <h3 class="text-xl font-bold">Step 1</h3>
+                    <p class="mt-4">Create Your Profile</p>
+                </div>
+                <div class="bg-gray-100 p-6 rounded-lg shadow-md transform hover:scale-105 transition-transform duration-300" data-aos="fade-up" data-aos-delay="200">
+                    <h3 class="text-xl font-bold">Step 2</h3>
+                    <p class="mt-4">List Your Services</p>
+                </div>
+                <div class="bg-blue-600 text-white p-6 rounded-lg shadow-md transform hover:scale-105 transition-transform duration-300" data-aos="fade-up" data-aos-delay="400">
+                    <h3 class="text-xl font-bold">Step 3</h3>
+                    <p class="mt-4">Promote Your Business</p>
+                </div>
+                <div class="bg-green-600 text-white p-6 rounded-lg shadow-md transform hover:scale-105 transition-transform duration-300" data-aos="fade-up" data-aos-delay="600">
+                    <h3 class="text-xl font-bold">Step 4</h3>
+                    <p class="mt-4">Grow Your Revenue</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="bg-gradient-to-r from-indigo-600 to-blue-500 text-white py-16">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-8" data-aos="fade-up">Key Features to Help You Grow</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-white text-gray-800 p-6 rounded-lg shadow-md transform hover:scale-105 transition-transform duration-300 feature-card" data-aos="fade-up" data-aos-delay="100">
+                    <i class="fas fa-calendar-check fa-3x mb-4 text-blue-500"></i>
+                    <h3 class="text-xl font-semibold mb-2">Online Booking System</h3>
+                    <p>Effortlessly manage appointments and bookings with our integrated system.</p>
+                </div>
+                <div class="bg-white text-gray-800 p-6 rounded-lg shadow-md transform hover:scale-105 transition-transform duration-300 feature-card" data-aos="fade-up" data-aos-delay="200">
+                    <i class="fas fa-chart-line fa-3x mb-4 text-blue-500"></i>
+                    <h3 class="text-xl font-semibold mb-2">Real-Time Analytics & Insights</h3>
+                    <p>Gain valuable insights into your performance and make data-driven decisions.</p>
+                </div>
+                <div class="bg-white text-gray-800 p-6 rounded-lg shadow-md transform hover:scale-105 transition-transform duration-300 feature-card" data-aos="fade-up" data-aos-delay="300">
+                    <i class="fas fa-cogs fa-3x mb-4 text-blue-500"></i>
+                    <h3 class="text-xl font-semibold mb-2">Customizable Service Pages</h3>
+                    <p>Tailor your service pages to highlight what makes your business unique.</p>
+                </div>
+                <div class="bg-white text-gray-800 p-6 rounded-lg shadow-md transform hover:scale-105 transition-transform duration-300 feature-card" data-aos="fade-up" data-aos-delay="400">
+                    <i class="fas fa-mobile-alt fa-3x mb-4 text-blue-500"></i>
+                    <h3 class="text-xl font-semibold mb-2">Mobile-Friendly Interface</h3>
+                    <p>Access all features seamlessly from any device with our responsive design.</p>
+                </div>
+                <div class="bg-white text-gray-800 p-6 rounded-lg shadow-md transform hover:scale-105 transition-transform duration-300 feature-card" data-aos="fade-up" data-aos-delay="500">
+                    <i class="fas fa-percent fa-3x mb-4 text-blue-500"></i>
+                    <h3 class="text-xl font-semibold mb-2">Exclusive Promotions</h3>
+                    <p>Offer special deals and promotions to attract and retain customers.</p>
+                </div>
+                <div class="bg-white text-gray-800 p-6 rounded-lg shadow-md transform hover:scale-105 transition-transform duration-300 feature-card" data-aos="fade-up" data-aos-delay="600">
+                    <i class="fas fa-star fa-3x mb-4 text-blue-500"></i>
+                    <h3 class="text-xl font-semibold mb-2">Customer Feedback and Ratings</h3>
+                    <p>Collect and display customer reviews to build trust and improve services.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Testimonials Section -->
+    <section class="bg-gray-50 py-16">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-3xl font-bold text-gray-800 mb-8">See What Our Users Say</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-md transform hover:scale-105 transition-transform duration-300" data-aos="fade-up">
+                    <img src="customer1.jpg" alt="Customer 1" class="w-20 h-20 mx-auto rounded-full mb-4">
+                    <p class="text-gray-600 mb-4">"GROOMSY is easy to use and has brought us more customers."</p>
+                    <h3 class="text-lg font-bold text-gray-800">Spa ABC</h3>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md transform hover:scale-105 transition-transform duration-300" data-aos="fade-up" data-aos-delay="200">
+                    <img src="customer2.jpg" alt="Customer 2" class="w-20 h-20 mx-auto rounded-full mb-4">
+                    <p class="text-gray-600 mb-4">"Our bookings have increased significantly since using GROOMSY."</p>
+                    <h3 class="text-lg font-bold text-gray-800">Salon XYZ</h3>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md transform hover:scale-105 transition-transform duration-300" data-aos="fade-up" data-aos-delay="400">
+                    <img src="customer3.jpg" alt="Customer 3" class="w-20 h-20 mx-auto rounded-full mb-4">
+                    <p class="text-gray-600 mb-4">"The platform's features are incredibly helpful for managing our services."</p>
+                    <h3 class="text-lg font-bold text-gray-800">Wellness Center</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="bg-gradient-to-r from-indigo-600 to-blue-500 text-white py-16">
+        <div class="container mx-auto px-6 text-center" data-aos="zoom-in">
+            <h2 class="text-3xl font-bold mb-8">Ready to Get Started?</h2>
+            <p class="mb-8">Sign up now and take your grooming business to the next level with GROOMSY!</p>
+            <a href="#" class="bg-white text-blue-500 py-3 px-8 rounded-full shadow-lg hover:bg-gray-100 transition-transform transform hover:scale-105 duration-300">Get Started</a>
+        </div>
+    </section>
+
+    <!-- AOS JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        // Initialize AOS
+        AOS.init({
+            duration: 1000, // Duration of animation in milliseconds
+            easing: 'ease-in-out', // Easing function
+            once: true // Animation occurs only once
+        });
+    </script>
+</body>
+</html>
